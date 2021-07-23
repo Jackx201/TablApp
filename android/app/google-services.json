@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086456229330",
+    "project_id": "tablapp-110bb",
+    "storage_bucket": "tablapp-110bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086456229330:android:59d2f87c70d756c0dcec0b",
+        "android_client_info": {
+          "package_name": "tablapp.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086456229330-iglrvseughqnfaqaidvlgqr2d6q8acmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fCW6suo2g2mEG-xYaJOiUn04JQ2KMYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086456229330-iglrvseughqnfaqaidvlgqr2d6q8acmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

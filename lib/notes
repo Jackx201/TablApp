@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+class SignUp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        brightness: Brightness.light,
+        backgroundColor: Colors.purple[50],
+        leading: IconButton(
+          onPressed: (){
+            Navigator.pop(context);
+          },
+          icon: Icon(
+              Icons.arrow_back_ios,
+            size: 20,
+            color: Colors.black,
+          ),
+        ),
+      ),
+      body: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 40),
+          height: MediaQuery.of(context).size.height -50,
+          width: double.infinity,
+          child: Column(
+
+          ),
+        ),
+      )
+      //floatingActionButton: FloatingActionButton(onPressed: () { }, child: Icon(Icons.add),),
+    );
+  }
+
+}
