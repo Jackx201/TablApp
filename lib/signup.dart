@@ -100,6 +100,9 @@ class SignUp extends StatelessWidget{
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   onPressed: () {
+
+                    //Simple validation
+
                     String x1 = TextField1.text;
                     String x2 = TextField2.text;
                     String x3 = TextField3.text;
@@ -141,6 +144,7 @@ class SignUp extends StatelessWidget{
                       TextField3.text = "";
                       TextField4.text = "";
                     }
+
 
                     //To be done
                     //Navigator.push(context, MaterialPageRoute(builder: (context) => SignUp()));
